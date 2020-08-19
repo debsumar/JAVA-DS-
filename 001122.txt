@@ -1,0 +1,29 @@
+int counter0 = 0
+int counter1 = 0
+int counter2 = 0
+
+for(int i=0;i<arr.lenght;i++)
+{
+	if(arr[i]==0)
+	{
+		counter0++;
+	}
+	else if(arr[i]==1)
+	{
+		counter1++;
+	}
+	if(arr[i]==2)
+	{
+		counter2++;
+	}
+}
+
+for(int i=0;i<counter0;i++){
+	arr[i]=0;
+}
+for(int i=0;i<counter0+counter1;i++){
+	arr[i]=0;
+}
+for(int i=0;i<counter0+counter1+counter2;i++){
+	arr[i]=0;
+}
